@@ -40,8 +40,10 @@ a{color:var(--acc);word-break:break-all}
 
 <h3>ملخص</h3>
 <ul>
-<li>تقدمك في اللعبة يُحفظ على جهازك فقط، ولا يُرفع لأي خادم تابع لنا.</li>
+<li>تقدمك في اللعبة يُحفظ على جهازك، ولا يُرفع لأي خادم تابع لنا.</li>
 <li>اللعبة فيها إعلانات عن طريق Google AdMob، ومشتريات داخل التطبيق عن طريق Google Play.</li>
+<li>نستخدم Firebase من Google لتقارير الأعطال وإحصائيات استخدام مجهولة تساعدنا نحسّن اللعبة.</li>
+<li>الحفظ السحابي اختياري عن طريق Google Play Games.</li>
 <li>نحن لا نجمع اسمك ولا بريدك ولا موقعك ولا أي بيانات شخصية.</li>
 </ul>
 
@@ -57,12 +59,19 @@ a{color:var(--acc);word-break:break-all}
 </ul>
 <p>في الدول التي تتطلب موافقة (مثل الاتحاد الأوروبي والمملكة المتحدة) تظهر رسالة موافقة عند أول تشغيل، وتقدر ترفض الإعلانات المخصصة. وتقدر في أي وقت تعيد ضبط معرّف الإعلانات أو تحذفه من إعدادات جوالك.</p>
 
+<h3>تقارير الأعطال والإحصائيات (Google Firebase)</h3>
+<p>نستخدم Firebase Crashlytics لمعرفة الأعطال لما تصير، و Firebase Analytics لإحصائيات استخدام عامة (مثل بداية حياة جديدة أو انتهائها أو استخدام ميزة معيّنة). هذي البيانات تشمل معلومات تقنية عن الجهاز ونظام التشغيل، ومعرّف تثبيت عشوائي للتطبيق، وتفاعلك مع اللعبة. ما تحتوي اسمك ولا بريدك، ونستخدمها فقط لتحسين اللعبة وإصلاح الأخطاء. تُعالج من طرف Google وفق سياستها:
+<a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></p>
+
+<h3>الحفظ السحابي (Google Play Games)</h3>
+<p>لو سجّلت دخول Google Play Games، تنحفظ نسخة من تقدمك في اللعبة في حسابك على Google Play Games عشان ما تضيع لو غيّرت جوالك. هذي الميزة اختيارية، والبيانات تُخزّن عند Google وفق سياستها، ونحن ما نقدر نوصل لحسابك.</p>
+
 <h3>المشتريات داخل التطبيق (Google Play)</h3>
 <p>تتوفر مشتريات اختيارية، منها ما يُشترى مرة واحدة (مثل إزالة الإعلانات والباقة الذهبية وباقة البداية وسرعة ×8)، ومنها ما يُستهلك (مثل «غيّر مصيرك» والإنعاش الثاني والبدء بإرث). الدفع يتم بالكامل عن طريق Google Play، ولا نستلم ولا نخزّن أي بيانات دفع. تُحفظ على جهازك فقط المشتريات التي تملكها، وتقدر تسترجع المشتريات الدائمة من زر «استرجاع مشترياتي».</p>
 
 <h3>صلاحيات التطبيق</h3>
 <ul>
-<li><b>الإنترنت وحالة الشبكة:</b> لتحميل الإعلانات والتحقق من المشتريات فقط. اللعبة نفسها تشتغل بدون إنترنت.</li>
+<li><b>الإنترنت وحالة الشبكة:</b> لتحميل الإعلانات والتحقق من المشتريات وإرسال تقارير الأعطال ومزامنة الحفظ السحابي. اللعبة نفسها تشتغل بدون إنترنت.</li>
 <li><b>الإشعارات (اختيارية):</b> تذكير بالمكافأة اليومية وحالة شخصيتك، تُجدول محلياً على جهازك.</li>
 <li><b>الاهتزاز:</b> لتنبيهات داخل اللعبة.</li>
 <li>لا نستخدم الموقع ولا الكاميرا ولا الميكروفون ولا جهات الاتصال.</li>
@@ -88,7 +97,8 @@ a{color:var(--acc);word-break:break-all}
 
 <h3>Summary</h3>
 <ul>
-<li>Your game progress is saved on your device only and is never uploaded to our servers.</li>
+<li>Your game progress is saved on your device and is never uploaded to our servers. Optional cloud save uses Google Play Games.</li>
+<li>We use Google Firebase for crash reports and anonymous usage statistics that help us improve the game.</li>
 <li>The game shows ads through Google AdMob and offers in-app purchases through Google Play.</li>
 <li>We do not collect your name, email, location or any other personal data.</li>
 </ul>
@@ -105,12 +115,19 @@ a{color:var(--acc);word-break:break-all}
 </ul>
 <p>In regions that require consent (such as the EU and UK), a consent message appears on first launch and you can refuse personalized ads. You can reset or delete your advertising ID at any time from your phone’s settings.</p>
 
+<h3>Crash reports and statistics (Google Firebase)</h3>
+<p>We use Firebase Crashlytics to learn about crashes when they happen, and Firebase Analytics for general usage statistics (such as starting or ending a life, or using a feature). This data includes technical information about your device and operating system, a random app installation ID, and your interactions with the game. It does not include your name or email, and we use it only to improve the game and fix bugs. It is processed by Google under its policy:
+<a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></p>
+
+<h3>Cloud save (Google Play Games)</h3>
+<p>If you sign in to Google Play Games, a copy of your game progress is saved to your Google Play Games account so you don't lose it if you change phones. This feature is optional; the data is stored by Google under its policy, and we cannot access your account.</p>
+
 <h3>In-app purchases (Google Play)</h3>
 <p>Optional purchases are available: one-time items (such as Remove Ads, Gold Pack, Starter Pack and Speed ×8) and consumable items (such as Change Your Fate, Second Revival and Legacy Start). Payment is handled entirely by Google Play; we never receive or store any payment details. Only the items you own are recorded on your device, and permanent items can be recovered with the “Restore purchases” button.</p>
 
 <h3>App permissions</h3>
 <ul>
-<li><b>Internet and network state:</b> only to load ads and verify purchases. The game itself works offline.</li>
+<li><b>Internet and network state:</b> to load ads, verify purchases, send crash reports and sync your cloud save. The game itself works offline.</li>
 <li><b>Notifications (optional):</b> reminders about your daily reward and your character, scheduled locally on your device.</li>
 <li><b>Vibration:</b> for in-game alerts.</li>
 <li>We do not use location, camera, microphone or contacts.</li>
