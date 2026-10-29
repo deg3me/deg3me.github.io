@@ -1,5 +1,5 @@
 # Google AdMob - Lonely Dev (Road to Top)
-google.com, pub-9533036861224691, DIRECT, f08c47fec0942fa0
+google.com, pub-2768629942664581, DIRECT, f08c47fec0942fa0
 
 # Unity Ads — Lonely Dev (Road to Top)
 unity.com, 155691380, DIRECT, 96cabb5fbdde37a7
